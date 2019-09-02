@@ -1,13 +1,17 @@
 import React from 'react';
 
-import './App.css'
-import profile from './assets/profile.jpeg'
+import Header from './components/Header';
+import PostList from './components/PostList';
+
+import './App.css';
+import Post from './components/Post';
+
 
 export default function src() {
   return (
     <>
-      <h1>Teste de carregamento</h1>
-      <img src={profile}/>
+      <Header/>
+      <PostList/>
     </>
   );
 }

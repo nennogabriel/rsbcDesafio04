@@ -1,5 +1,61 @@
-body {
-  background: #7159c1;
-  color: #ffffff;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+
+html, body, #app{
+  background: #ddd;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app div{
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: yellow;
+}
+
+.header > img, .header > div {
+  padding: 20px
+}
+
+.postlist {
+  width: 90%;
+  max-width: 1200px;
+  background: green;
+  padding: 20px
+}
+
+.post {
+  padding: 20px;
+  background: red;
+}
+
+.post + .post{
+  margin-top: 20px;
+}
+
+.comment {
+  padding: 10px;
+  background: blue;
+}
+
+
+.post img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
