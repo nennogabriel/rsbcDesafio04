@@ -6,7 +6,7 @@ export default function Header () {
     <div className='header'>
       <img src={logo} />
       <div>
-        <span>Minha conta</span>
+        <span>Meu perfil</span>
       </div>
     </div>
   );
